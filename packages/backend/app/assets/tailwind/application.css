@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: all;
+}
+
+html,
+body {
+  font-size: 14px;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}

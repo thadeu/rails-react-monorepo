@@ -1,0 +1,9 @@
+:concurrency: <%= ENV['SIDEKIQ_CONCURRENCY_NUMBER'] || 50 %>
+:queues:
+  - [very_high, 9]
+  - [high, 7]
+  - [default, 5]
+  - [low, 3]
+
+:limits:
+  low: 3
