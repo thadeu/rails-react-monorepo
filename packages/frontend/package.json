@@ -21,7 +21,7 @@
     "@radix-ui/react-slider": "^1.3.2",
     "@radix-ui/react-slot": "^1.2.0",
     "@radix-ui/react-tooltip": "^1.2.4",
-    "@react-router/node": "^7.5.0",
+    "@react-router/node": "^7.9.4",
     "@react-router/serve": "^7.5.0",
     "@tanstack/react-query": "^5.74.7",
     "class-variance-authority": "^0.7.1",
